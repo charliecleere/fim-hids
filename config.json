@@ -1,10 +1,10 @@
 {
     "monitored_directories": [
-        "~/python-fim-hids/test1/",
-        "~/python-fim-hids/test2/"
+        "~/fim-hids/test1/",
+        "~/fim-hids/test2/"
     ],
-    "baseline_file": "~/python-fim-hids/baseline.json",
-    "log_file": "~/python-fim-hids/audit.log",
+    "baseline_file": "~/fim-hids/baseline.json",
+    "log_file": "~/fim-hids/audit.log",
     "excluded_directories": [
         "test3"
     ],
