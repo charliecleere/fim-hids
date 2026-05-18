@@ -13,7 +13,7 @@ A Python-based File Integrity Monitoring (FIM) Host-Based Intrusion Detection Sy
 - Detects missing or invalid baseline files
 - Creates the baseline if the baseline file is missing
 - Recreates the baseline if the baseline file is invalid
-- Updates the baseline after detected changes
+- Automatically updates the baseline after detected changes
 - Supports excluded file extensions
 - Supports excluded directory names
 - Writes structured events to an audit log
