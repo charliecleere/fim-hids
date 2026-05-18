@@ -10,8 +10,8 @@ A Python-based File Integrity Monitoring (FIM) Host-Based Intrusion Detection Sy
 - Detects deleted files
 - Detects modified files using SHA-256 hashing
 - Stores file metadata including file size and last modified time
-- Creates a baseline file on the first run
 - Detects missing or invalid baseline files
+- Creates the baseline if the baseline file is missing
 - Recreates the baseline if the baseline file is invalid
 - Updates the baseline after detected changes
 - Supports excluded file extensions
@@ -19,6 +19,7 @@ A Python-based File Integrity Monitoring (FIM) Host-Based Intrusion Detection Sy
 - Writes structured events to an audit log
 - Can be scheduled with cron
 - Uses only Python standard library modules
+- Is a cross-platform system
 
 ## Technologies and Concepts Used
 
@@ -38,6 +39,7 @@ fim-hids/
 ├── requirements.txt
 ├── LICENSE
 ├── README.md
+├── .gitignore
 └── docs/
     └── fim-hids-paper.pdf
 ```
