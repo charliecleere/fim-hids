@@ -52,6 +52,19 @@ audit.log
 cron.log
 ```
 
+## Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/charliecleere/fim-hids.git
+cd fim-hids
+```
+
+No package installation is required because this project uses only Python standard library modules.
+
+Before running the script, edit `config.json` to set the monitored directories, baseline file path, audit log file path, excluded directories, and excluded file extensions for your system.
+
 ## How It Works
 
 1. The program loads settings from `config.json`.
