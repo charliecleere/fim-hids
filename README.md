@@ -1,4 +1,4 @@
-# fim-hids
+# FIM-HIDS (File Integrity Monitoring – Host Intrusion Detection System)
 
 A Python-based File Integrity Monitoring (FIM) Host-Based Intrusion Detection System (HIDS).
 
