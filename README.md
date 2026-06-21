@@ -2,7 +2,7 @@
 
 A Python-based File Integrity Monitoring (FIM) Host-Based Intrusion Detection System (HIDS).
 
-`fim-hids` monitors configured directories for file changes by comparing the current state of files against a saved baseline. It detects new, deleted, and modified files, then writes the results to a structured audit log.
+This FIM-HIDS monitors configured directories for file changes by comparing the current state of files against a saved baseline. It detects new, deleted, and modified files, then writes the results to a structured audit log.
 
 ## Features
 
