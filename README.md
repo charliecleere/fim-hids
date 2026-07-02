@@ -33,7 +33,7 @@ This FIM-HIDS monitors configured directories for file changes by comparing the 
 ## Project Structure
 
 ```text
-fim-hids/
+.
 ├── docs/
 │   └── fim-hids-paper.pdf
 ├── .gitattributes
