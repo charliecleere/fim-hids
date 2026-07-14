@@ -135,7 +135,7 @@ The program writes detected file changes to the audit log specified in `config.j
 2026-04-29T21:15:01 event=MODIFIED path="/home/user/fim-hids/test1/test4/b.txt" size_old=50 size_new=72 last_modified_old="2026-04-29T20:55:11" last_modified_new="2026-04-29T21:14:58"
 ```
 
-If the baseline file is invalid, the audit log may include:
+If the baseline file is invalid, the audit log will include:
 
 ```text
 2026-04-29T21:10:01 event=BASELINE_INVALID path="/home/user/fim-hids/baseline.json"
